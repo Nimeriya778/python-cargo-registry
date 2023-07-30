@@ -1,0 +1,11 @@
+db.sqlite3
+.mypy_cache
+/dist
+__pycache__
+*.egg-info
+.tox
+/.idea/
+/venv/
+*.pyc
+.mypy_cache/
+cargo_registry/.idea/

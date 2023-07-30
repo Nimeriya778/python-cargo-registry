@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <title>Cargo registry</title>
+  {% load static %}
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  <link rel="stylesheet" href ="{% static 'registry/style.css' %}">
+</head>
+
+<body>
+<header>
+  <h1><br>Welcome to XXX Crate Registry!</h1>
+    <form id="form">
+      <input type="search" placeholder="Search...">
+      <button id="search-button" type="submit">Search</button>
+    </form>
+</header>
+
+<main>
+  <p class="stats"><u>x crates stored</u><br><u>y total downloads</u></p>
+  <div class="last-updates-title">Last updated</div>
+
+  <div class="updates">
+    <div class="entry">crates 1</div>
+<!--      <a href="https://web.dev/">crates 1</a></div>-->
+    <div class="entry">:</div>
+<!--      <a>:</a></div>-->
+    <div class="entry">crates N</div>
+<!--    <a href="https://www.w3schools.com">crates N</a>-->
+  </div>
+
+</main>
+</body>
+
+</html>
